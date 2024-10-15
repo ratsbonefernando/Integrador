@@ -17,12 +17,11 @@ const subjects = {
             "1ano": {
                 title: "Biologia - 1º Ano",
                 content: [
-                    { title: "Células", description: "Informações sobre células...", link: "material/celulas.pdf", questions: ["Questão 1: O que é uma célula?"] }
+                    { title: "Células", description: "Informações sobre células", link: "material/celulas.pdf", questions: ["Questão 1: O que é uma célula?"] }
                 ]
             }
         }
     },
-    // Adicione mais matérias e conteúdos aqui
 };
 
 function filterSubjects() {
