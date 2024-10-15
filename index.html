@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Integrador</title>
     <style>
-        /* Estilização geral */
         body {
             font-family: Arial, sans-serif;
             background-color: #f3f3f3;
@@ -13,37 +12,25 @@
             padding: 0;
             color: #333;
             text-align: center;
-        }
-
-        h1 {
+        } h1 {
             color: #333;
             margin: 20px 0;
             font-size: 2rem;
-        }
-
-        .home {
+        }.home {
             padding: 20px;
-        }
-
-        /* Barra de pesquisa */
-        #search-bar {
+        } #search-bar {
             width: 80%;
             padding: 10px;
             margin: 20px 0;
             font-size: 1rem;
             border: 1px solid #ddd;
             border-radius: 5px;
-        }
-
-        /* Botões de matérias */
-        .subject-list {
+        }.subject-list {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 10px;
-        }
-
-        .subject-btn {
+        }.subject-btn {
             background-color: #007bff;
             color: white;
             border: none;
@@ -52,18 +39,11 @@
             cursor: pointer;
             transition: background-color 0.3s;
             font-size: 1rem;
-        }
-
-        .subject-btn:hover {
+        }.subject-btn:hover {
             background-color: #0056b3;
-        }
-
-        /* Anos escolares */
-        .year-list {
+        }.year-list {
             margin: 20px 0;
-        }
-
-        .year-list button {
+        }.year-list button {
             background-color: #28a745;
             color: white;
             border: none;
@@ -73,48 +53,30 @@
             transition: background-color 0.3s;
             font-size: 1rem;
             margin: 5px;
-        }
-
-        .year-list button:hover {
+        }.year-list button:hover {
             background-color: #218838;
-        }
-
-        /* Listas de conteúdos */
-        #year-content ul, #material ul {
+        } #year-content ul, #material ul {
             list-style-type: none;
             padding: 0;
-        }
-
-        #year-content ul li, #material ul li {
+        } #year-content ul li, #material ul li {
             padding: 10px;
             font-size: 1rem;
-        }
-
-        #year-content ul li a {
+        } #year-content ul li a {
             color: #007bff;
             text-decoration: none;
-        }
-
-        #year-content ul li a:hover {
+        } #year-content ul li a:hover {
             text-decoration: underline;
-        }
-
-        /* Material e lista de questões */
-        #material {
+        } #material {
             margin: 20px auto;
             max-width: 600px;
             padding: 20px;
             background-color: white;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        #material h3, #material h4 {
+        } #material h3, #material h4 {
             color: #333;
             margin-top: 10px;
-        }
-
-        #material a {
+        } #material a {
             display: inline-block;
             margin-top: 10px;
             background-color: #007bff;
@@ -122,9 +84,7 @@
             padding: 10px 15px;
             border-radius: 5px;
             text-decoration: none;
-        }
-
-        #material a:hover {
+        }#material a:hover {
             background-color: #0056b3;
         }
     </style>
@@ -132,7 +92,7 @@
 <body>
     <div class="home">
         <h1>Organizador de Matérias do Ensino Médio</h1>
-        <input type="text" id="search-bar" placeholder="Pesquisar matéria...">
+        <input type="text" id="search-bar" placeholder="Pesquisar matéria">
         <div class="subject-list">
             <button class="subject-btn" onclick="navigateTo('Artes')">Matemática</button>
             <button class="subject-btn" onclick="navigateTo('Biologia')">Biologia</button>
@@ -163,7 +123,6 @@
             <ul>
                 <li><a href="material.html?topic=equacoes">Equações do 1º Grau</a></li>
                 <li><a href="material.html?topic=funcoes">Funções</a></li>
-                <!-- Adicione mais tópicos -->
             </ul>
         </div>
         <div id="material">
@@ -174,7 +133,6 @@
             <ul>
                 <li>Questão 1: ...</li>
                 <li>Questão 2: ...</li>
-                <!-- Mais questões -->
             </ul>
         </div>
 </body>
